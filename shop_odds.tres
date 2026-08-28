@@ -1,0 +1,73 @@
+[gd_resource type="Resource" script_class="ShopOddsData" format=3 uid="uid://cep5njwmtoyt6"]
+
+[ext_resource type="Script" uid="uid://dxapg12wxlwl3" path="res://shop_odds_data.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+rates_by_level = Array[Dictionary]([{}, {
+0: 100,
+1: 0,
+2: 0,
+3: 0,
+4: 0
+}, {
+0: 100,
+1: 0,
+2: 0,
+3: 0,
+4: 0
+}, {
+0: 75,
+1: 25,
+2: 0,
+3: 0,
+4: 0
+}, {
+0: 55,
+1: 30,
+2: 15,
+3: 0,
+4: 0
+}, {
+0: 45,
+1: 33,
+2: 20,
+3: 2,
+4: 0
+}, {
+0: 30,
+1: 40,
+2: 25,
+3: 5,
+4: 0
+}, {
+0: 19,
+1: 30,
+2: 40,
+3: 10,
+4: 1
+}, {
+0: 15,
+1: 20,
+2: 32,
+3: 30,
+4: 3
+}, {
+0: 10,
+1: 17,
+2: 25,
+3: 33,
+4: 15
+}, {
+0: 5,
+1: 10,
+2: 20,
+3: 40,
+4: 25
+}, {
+0: 1,
+1: 2,
+2: 12,
+3: 50,
+4: 35
+}])

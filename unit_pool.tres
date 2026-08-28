@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="UnitPool" format=3 uid="uid://djcfvqmnsdbjf"]
+
+[ext_resource type="Script" uid="uid://ctdw265epi14m" path="res://unit_pool.gd" id="1_script"]
+
+[resource]
+script = ExtResource("1_script")
+currentPool = Dictionary[int, Dictionary]({
+0: {
+"TFT17_Aatrox": 30,
+"TFT17_Briar": 30,
+"TFT17_Caitlyn": 30,
+"TFT17_Chogath": 30,
+"TFT17_Ezreal": 30,
+"TFT17_Leona": 30,
+"TFT17_Lissandra": 30,
+"TFT17_Nasus": 30,
+"TFT17_Poppy": 30,
+"TFT17_RekSai": 30,
+"TFT17_Talon": 30,
+"TFT17_Teemo": 30,
+"TFT17_TwistedFate": 30,
+"TFT17_Veigar": 30
+},
+1: {
+"TFT17_Akali": 25,
+"TFT17_Belveth": 25,
+"TFT17_Gnar": 25,
+"TFT17_Gragas": 25,
+"TFT17_Gwen": 25,
+"TFT17_Jax": 25,
+"TFT17_Jinx": 25,
+"TFT17_Milio": 25,
+"TFT17_Mordekaiser": 25,
+"TFT17_Pantheon": 25,
+"TFT17_Pyke": 25,
+"TFT17_Zoe": 25
+},
+2: {
+"TFT17_Aurora": 18,
+"TFT17_Diana": 18,
+"TFT17_Fizz": 18,
+"TFT17_Illaoi": 18,
+"TFT17_Kaisa": 18,
+"TFT17_Lulu": 18,
+"TFT17_Maokai": 18,
+"TFT17_MissFortune": 18,
+"TFT17_Ornn": 18,
+"TFT17_Rhaast": 18,
+"TFT17_Samira": 18,
+"TFT17_Urgot": 18,
+"TFT17_Viktor": 18
+},
+3: {
+"TFT17_AurelionSol": 10,
+"TFT17_Corki": 10,
+"TFT17_Galio": 10,
+"TFT17_Karma": 10,
+"TFT17_Kindred": 10,
+"TFT17_Leblanc": 10,
+"TFT17_MasterYi": 10,
+"TFT17_Morgana": 10,
+"TFT17_Nami": 10,
+"TFT17_Nunu": 10,
+"TFT17_Rammus": 10,
+"TFT17_Riven": 10,
+"TFT17_TahmKench": 10,
+"TFT17_Xayah": 10
+},
+4: {
+"TFT17_Bard": 9,
+"TFT17_Blitzcrank": 9,
+"TFT17_Fiora": 9,
+"TFT17_Graves": 9,
+"TFT17_Jhin": 9,
+"TFT17_Shen": 9,
+"TFT17_Sona": 9,
+"TFT17_Vex": 9,
+"TFT17_Zed": 9
+}
+})

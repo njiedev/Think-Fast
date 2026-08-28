@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://dytaba0rxeuq"]
+
+[ext_resource type="Script" uid="uid://biksjfi36s1tm" path="res://unit_data.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://dhkv2f0nkphx1" path="res://assets/units/set17/TFT17_Akali_splash_centered_68.TFT_Set17.png" id="2_image"]
+
+[resource]
+script = ExtResource("1_script")
+id = "TFT17_Akali"
+unit_name = "Akali"
+rarity = 1
+unit_image = ExtResource("2_image")

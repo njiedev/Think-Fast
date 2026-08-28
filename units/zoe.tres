@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://b60rnuc37uis5"]
+
+[ext_resource type="Script" uid="uid://biksjfi36s1tm" path="res://unit_data.gd" id="1_n767n"]
+
+[resource]
+script = ExtResource("1_n767n")
+id = "1"
+unit_name = "Zoe"
+rarity = 2
+metadata/_custom_type_script = "uid://biksjfi36s1tm"
