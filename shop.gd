@@ -23,10 +23,10 @@ func randUnit(runtime_pool, rarity):
 	var rng =  RandomNumberGenerator.new()
 	
 	var currUnitPool = runtime_pool.currentPool[rarity]
-	var weights = []
-	for i in currUnitPool:
-		weights.append(currUnitPool[i])
-	return currUnitPool[rng.rand_weighted(weights)]
+	var unit_ids = currUnitPool.keys()
+	var weights = currUnitPool.values()
+	var selected_index = rng.rand_weighted(weights)
+	return unit_ids[selected_index]
 func reroll(playerLevel, runtime_pool,shopOddData,unitDB):
 	for i in len(shop):
 		var rarity = randRarity(shopOddData, playerLevel)
